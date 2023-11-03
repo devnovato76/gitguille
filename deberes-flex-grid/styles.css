@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(209, 227, 240);
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li:nth-child(1) {
+    background: #0a0a0a;
+    color: rgb(209, 227, 240);
+    padding: 2px 8px;
+    /*  text-align: center; */
+}
+
+input {
+    margin-right: 30px;
+    background: rgba(152, 171, 190, 0.551);
+    color: #1f79a3;
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+
+}
+
+input::placeholder {
+    color: rgb(66, 184, 243);
+
+
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input::placeholder::before {
+    content: "PP";
+}
