@@ -1,0 +1,16 @@
+{
+    "name": "formularios-html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "preview"
+    },
+    "author": "Fernan Rodríguez",
+    "license": "ISC",
+    "dependencies": {
+        "vite": "^4.5.0"
+    }
+}
