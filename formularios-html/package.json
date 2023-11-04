@@ -10,7 +10,7 @@
     },
     "author": "Fernan Rodríguez",
     "license": "ISC",
-    "dependencies": {
+    "devDependencies": {
         "vite": "^4.5.0"
     }
 }
